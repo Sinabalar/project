@@ -1,0 +1,106 @@
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px;
+}
+
+.head-style{
+    background-color: #FAF4F2;
+    margin: 0;
+}
+.header-sec{
+    background-image: url("../uploads/head-img.png");
+    background-size:auto;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+
+
+
+}
+
+.header-main{
+    color: white;
+    text-align: center;
+    padding: 19px 21px;
+    margin: 14px;
+    text-decoration: none;
+    transition-duration:0.1s;
+    cursor: pointer;
+
+}
+
+.hovermain:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+.xo {
+    background-color:darkorange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration:0.4s;
+    cursor: pointer;
+}
+.hoverxo:hover{
+    background-color: white;
+    color: darkorange;
+}
+.singin {
+    border: 2px solid gainsboro;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration:0.5s;
+    cursor: pointer;
+}
+
+.hoversin:hover{
+    background-color: gainsboro;
+    color: black;
+
+}
+.headerfontsize{
+    font-size: xxx-large;
+}
+.paragraphfont{
+    font-size: medium;
+}
+.firstmenu{
+
+    background-color: #FAF4F2;
+    color: black;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 30px;
+    float:right ;
+    display: inline-flex;
+
+}
+.flex-container {
+    display: flex;
+}
+.flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.
+
