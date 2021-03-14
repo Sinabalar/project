@@ -6,6 +6,7 @@
 }
 
 .head-style{
+    background-image: url("../uploads/shapes.png");
     background-color: #FAF4F2;
     margin: 0;
 }
@@ -29,12 +30,12 @@
     text-decoration: none;
     transition-duration:0.1s;
     cursor: pointer;
-
+    border: none;
 }
-
 .hovermain:hover{
     background-color: gainsboro;
     color: black;
+    border-radius: 20px;
 }
 
 .xo {
@@ -96,11 +97,46 @@
 .flex-container {
     display: flex;
 }
-.flex-container > div {
+.flex-container {
     background-color: white;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
 }
+.sec_menu {
+    background: white;
+    border: white;
+    border-radius: 36px;
+    display: inline-block;
+    color: black;
+    font-size: medium;
+    text-align: center;
+    padding: 56px;
+    margin: 19px;
+    position: relative;
+    top: -132px;
+    left: -209px;
+}
+.fire_img {
+    margin-top: 10px;
+}
+.point{
+     border: unset;
+    text-align: center;
+    font-size: xx-large;
+}
+.third_menu{
 
-
+    background: white;
+    border: white;
+    border-radius: 36px;
+    display: inline-block;
+    color: black;
+    font-size: medium;
+    text-align: center;
+    padding: 56px;
+    margin: 19px;
+    position: relative;
+    top: -132px;
+    left: -209px;
+}
