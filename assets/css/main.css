@@ -9,14 +9,18 @@
     background-image: url("../uploads/shapes.png");
     background-color: #FAF4F2;
     margin: 0;
+    background-repeat: no-repeat;
 }
 .header-sec{
-    background-image: url("../uploads/head-img.png");
+    background-image: url("../uploads/camping.png");
     background-size:auto;
 
     background-position: center center;
     background-repeat: no-repeat;
     padding-top: 60px;
+    padding-left: 1px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
 
 
 
@@ -31,6 +35,8 @@
     transition-duration:0.1s;
     cursor: pointer;
     border: none;
+    position: relative;
+    left: -15px;
 }
 .hovermain:hover{
     background-color: gainsboro;
@@ -39,17 +45,17 @@
 }
 
 .xo {
-    background-color:darkorange;
+    background-color:rgba(231,111,81,0.97);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 25px;
     transition-duration:0.4s;
     cursor: pointer;
 }
@@ -107,15 +113,19 @@
     background: white;
     border: white;
     border-radius: 36px;
-    display: inline-block;
+
     color: black;
     font-size: medium;
     text-align: center;
     padding: 56px;
-    margin: 19px;
+
     position: relative;
     top: -132px;
     left: -209px;
+
+    display: block;
+    width: 1500px;
+    margin: 0 auto;
 }
 .fire_img {
     margin-top: 10px;
@@ -134,9 +144,132 @@
     color: black;
     font-size: medium;
     text-align: center;
-    padding: 56px;
-    margin: 19px;
+    padding: 41px;
+    margin: 10px;
     position: relative;
-    top: -132px;
-    left: -209px;
+    top: 86px;
+    left:-205px;
+    padding-bottom: 70px;
+}
+.third_info{
+    border: white;
+    background: white;
+    color: darkorange;
+    border-radius: 20px;
+    padding: 19px;
+    margin: 71px;
+    margin-block: auto;
+    top: -38px;
+    position: relative;
+    transition-duration:0.4s;
+}
+.third_info_link{
+    background-color:rgba(227,228,225,0.97);
+    border: none;
+    color: rgba(79,79,79,0.97);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration:0.4s;
+    position: relative;
+    top: 35px;
+}
+.third_info_link_hover:hover{
+    background-color:white;
+    color:darkorange;
+}
+.view_more{
+    border: 1px solid darkorange;
+    color: darkorange;
+    padding: 19px 81px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 165px 95px;
+    cursor: pointer;
+    border-radius: 38px;
+    transition-duration:0.5s;
+    cursor: pointer;
+    position: relative;
+    left:-745px ;
+    top: 13px;
+}
+.view_more_hover:hover{
+    background-color: darkorange;
+    color: white;
+}
+.forth_menu{
+    border: rgba(248,225,219,0.97);
+    background-color: rgba(248,225,219,0.97);
+    color: black;
+    display: inline-block;
+    border-radius:15px;
+    position: relative;
+    right: -15px;
+
+
+}
+
+
+/*******************/
+.test{
+    display: block;
+}
+.test_2{
+    display: block;
+    position: relative;
+    top: -190px;
+
+
+}
+.container{
+    display: block;
+    width: 1500px;
+    margin: 0 auto;
+    margin-top: 71px;
+    margin-bottom: 72px;
+    margin-left: 5px;
+    margin-right: 213px;
+}
+.featured-boxs{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.fbox{
+    border-radius: 20px;
+    float: right;
+    width: calc((100% - 90px) / 4);
+    height: 200px;
+    background-color:#FFFFFF;
+    margin-left: 30px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+.fbox:last-child{
+    margin-left: 0;
+}
+.header_padding{
+     padding-bottom: 393px
+}
+.forth_background{
+    background-image: url("../uploads/forth menu.png" );height: 390px;width: 1518px;
+}
+.posision{
+    position: relative;
+    bottom: -9px;
+    top: 24px;
+    right: 42px;
+}
+.head3_fontsize{
+    font-size: xxx-large;
+}
+.paragraph_fontsize{
+    font-size:medium;
 }
