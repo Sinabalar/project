@@ -7,7 +7,7 @@
 
 .head-style{
     background-image: url("../uploads/shapes.png");
-    background-color: #FAF4F2;
+    background-color: #faf4f2;
     margin: 0;
     background-repeat: no-repeat;
 }
@@ -316,26 +316,130 @@
     color: black;
     border-top-right-radius: 200px;
     border-top-left-radius: 200px;
-    padding: 5px;
-    margin: 0px;
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    margin: 6px;
+    margin-top: 259px;
+    position: relative;
+    top: 90px;
 }
 .header-main_2{
     color: black;
     text-align: center;
-    padding: 19px 21px;
+    padding: 15px 5px;
     margin-left: 160px;
     text-decoration: none;
     cursor: pointer;
     border: none;
     position: relative;
-    left: -15px;
-   bottom: 80px;
+    left: -45px;
+   bottom: 60px;
 
 }
 .hovermain_2:hover{
     color: darkorange;
 }
 .last_h3{
-    position: relative;
+position: relative;
     bottom: 70px;
 }
+.last_links{
+    display: flex;
+    color: black;
+    text-decoration: none;
+
+}
+.last_links_2{
+    position: relative;
+    right: 110px;
+}
+.header_main_3{
+    color: black;
+    text-align: center;
+    padding: 5px 15px;
+    margin-left: 160px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left: -65px;
+    bottom: 40px;
+
+
+}
+.header_main_3_5{
+    color: black;
+    text-align: center;
+    padding: 5px 15px;
+    margin-left: 160px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left: -65px;
+    bottom: 40px;
+
+
+}
+.header-main_4{
+    color: black;
+    text-align: center;
+    padding: 15px 5px;
+    margin-left: 160px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left: -40px;
+    bottom: 75px;
+
+}
+.final_border_1{
+    border: #F8E1DB
+}
+.header_main_3_5{
+    color: black;
+    text-align: center;
+    padding: 5px 15px;
+    margin-left: 160px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left: -65px;
+    bottom: 50px;
+
+
+}
+.h3_posision{
+    border: #F8E1DB;
+    text-align: end;
+    margin: 60px;
+
+}
+.h3_posision_1{
+    padding: 1px;
+
+}
+.two_logos{
+    position: relative;
+    top: 40px;
+}
+.bookmark{    border: #FFFFFF;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    transition-duration: 0.4s;
+    position: relative;
+    bottom: 25px;
+    right: 170px;
+    display: inline-block;
+    padding: 15px;
+    height: 23px;
+}
+.bookmark_hover:hover{
+    background-color: rgba(250,244,242,0.97);
+}
+
+
+
