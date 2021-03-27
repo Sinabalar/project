@@ -1,4 +1,5 @@
 .header-nav {
+   font-family: "Sofia", sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +28,7 @@
 }
 
 .header-main{
+    font-family: "Sofia", sans-serif;
     color: white;
     text-align: center;
     padding: 19px 21px;
@@ -136,6 +138,7 @@
     font-size: xx-large;
 }
 .third_menu{
+    font-family: "Sofia", sans-serif;
 
     background: white;
     border: white;
@@ -164,9 +167,10 @@
     transition-duration:0.4s;
 }
 .third_info_link{
-    background-color:rgba(227,228,225,0.97);
+    font-family: "Sofia", sans-serif;
+    background-color: rgba(227, 228, 225, 0.97);
     border: none;
-    color: rgba(79,79,79,0.97);
+    color: rgba(0,0,0,0.24);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -184,6 +188,7 @@
     color:darkorange;
 }
 .view_more{
+    font-family: "Sofia", sans-serif;
     border: 1px solid darkorange;
     color: darkorange;
     padding: 19px 81px;
@@ -220,8 +225,10 @@
 /*******************/
 .test{
     display: block;
+    font-family: "Sofia", sans-serif;
 }
 .test_2{
+    font-family: "Sofia", sans-serif;
     display: block;
     position: relative;
     top: -190px;
@@ -256,12 +263,13 @@
     margin-left: 0;
 }
 .header_padding{
-     padding-bottom: 393px
+     padding-bottom: 370px
 }
 .forth_background{
     background-image: url("../uploads/forth menu.png" );height: 390px;width: 1518px;
 }
 .posision{
+    font-family: "Sofia", sans-serif;
     position: relative;
     bottom: -9px;
     top: 24px;
@@ -311,6 +319,7 @@
 
 }
 .last_border{
+    font-family: "Sofia", sans-serif;
     border: #F8E1DB;
     background-color: #F8E1DB;
     color: black;
@@ -325,10 +334,11 @@
     top: 90px;
 }
 .header-main_2{
+    font-family: "Sofia", sans-serif;
     color: black;
     text-align: center;
     padding: 15px 5px;
-    margin-left: 160px;
+    margin-left: 130px;
     text-decoration: none;
     cursor: pointer;
     border: none;
@@ -342,7 +352,7 @@
 }
 .last_h3{
 position: relative;
-    bottom: 70px;
+    bottom: 150px;
 }
 .last_links{
     display: flex;
@@ -358,7 +368,7 @@ position: relative;
     color: black;
     text-align: center;
     padding: 5px 15px;
-    margin-left: 160px;
+    margin-left: 0px;
     text-decoration: none;
     cursor: pointer;
     border: none;
@@ -369,6 +379,7 @@ position: relative;
 
 }
 .header_main_3_5{
+    font-family: "Sofia", sans-serif;
     color: black;
     text-align: center;
     padding: 5px 15px;
@@ -383,6 +394,7 @@ position: relative;
 
 }
 .header-main_4{
+    font-family: "Sofia", sans-serif;
     color: black;
     text-align: center;
     padding: 15px 5px;
@@ -413,6 +425,7 @@ position: relative;
 
 }
 .h3_posision{
+    font-family: "Sofia", sans-serif;
     border: #F8E1DB;
     text-align: end;
     margin: 60px;
